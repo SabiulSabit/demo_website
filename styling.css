@@ -1,6 +1,24 @@
 body{
-  font-family: Arvo,serif;
+  font-family: 'Arvo',serif;
   background: url(https://freenaturestock.s3.us-east-1.amazonaws.com/232.jpg) no-repeat center center fixed;
   background-attachment: fixed;
   background-size: cover;
+}
+.logo{
+  height: 30px;
+}
+.navbar-inverse{
+  background: rgba(0,0,0,.5);
+  border: none;
+}
+.nav li{
+  color: white;
+  font-size: 17px;
+  margin-right: 35px;
+  padding: 10px 0px;
+}
+.nav li:hover{
+  border-bottom: 1px solid #00FFB8;
+  padding-bottom: 9px;
+  cursor: pointer;
 }
